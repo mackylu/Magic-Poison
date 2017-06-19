@@ -1,5 +1,6 @@
 @import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(../../../https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(../../../https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
 
 
@@ -31,11 +32,11 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.9rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -54,9 +55,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -117,7 +118,7 @@ body {
   background-color: #f9f295 !important;
 }
 .bg-success {
-  background-color: #f7ed4a !important;
+  background-color: #f9f295 !important;
 }
 .bg-info {
   background-color: #82786e !important;
@@ -189,8 +190,8 @@ body {
   border-color: #59524b !important;
 }
 .btn-success {
-  background-color: #f7ed4a;
-  border-color: #f7ed4a;
+  background-color: #f9f295;
+  border-color: #f9f295;
   color: #ffffff;
 }
 .btn-success:hover,
@@ -199,14 +200,14 @@ body {
 .btn-success:active,
 .btn-success.active {
   color: #ffffff;
-  background-color: #eadd0a;
-  border-color: #eadd0a;
+  background-color: #f5e94d;
+  border-color: #f5e94d;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #eadd0a !important;
-  border-color: #eadd0a !important;
+  background-color: #f5e94d !important;
+  border-color: #f5e94d !important;
 }
 .btn-warning {
   background-color: #879a9f;
@@ -310,8 +311,8 @@ body {
 }
 .btn-success-outline {
   background: none;
-  border-color: #d2c609;
-  color: #d2c609;
+  border-color: #f4e634;
+  color: #f4e634;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
@@ -319,14 +320,14 @@ body {
 .btn-success-outline:active,
 .btn-success-outline.active {
   color: #ffffff;
-  background-color: #f7ed4a;
-  border-color: #f7ed4a;
+  background-color: #f9f295;
+  border-color: #f9f295;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
   color: #ffffff !important;
-  background-color: #f7ed4a !important;
-  border-color: #f7ed4a !important;
+  background-color: #f9f295 !important;
+  border-color: #f9f295 !important;
 }
 .btn-warning-outline {
   background: none;
@@ -375,7 +376,7 @@ body {
   color: #149dcc !important;
 }
 .text-success {
-  color: #f7ed4a !important;
+  color: #f9f295 !important;
 }
 .text-info {
   color: #82786e !important;
@@ -402,7 +403,7 @@ a.text-secondary:focus {
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #d2c609 !important;
+  color: #f4e634 !important;
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -1089,12 +1090,12 @@ pre {
   font-family: 'Open Sans', sans-serif;
 }
 .cid-qmPUbEuXNX {
-  background-image: url("../../../assets/images/jumbotron0.jpg");
+  background-image: url("../../../assets/images/jumbotron1.jpg");
 }
 .cid-qmXnHOGnrP {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-qmXnHOGnrP h2 {
   text-align: center;
@@ -1131,8 +1132,8 @@ pre {
   max-width: 600px;
 }
 .cid-qmPULbNFpN {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #232323;
 }
 .cid-qmPULbNFpN .testimonial-text {
@@ -1147,9 +1148,9 @@ pre {
   word-break: break-word;
 }
 .cid-qmR5aUzKWt {
-  padding-top: 45px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
 }
 @media (max-width: 767px) {
   .cid-qmR5aUzKWt .media-wrap {
